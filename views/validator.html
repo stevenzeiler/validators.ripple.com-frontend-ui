@@ -10,7 +10,14 @@
   <table class='table table-striped'>
     <thead>
       <tr>
-        <th>Date</th>
+        <th>
+          Date
+          <button type="button" class="tooltip-example btn btn-default"
+            data-placement="top"
+            title="This is an example tooltip!"
+            onmouseenter="$(this).tooltip('show')">?
+          </button>
+        </th>
         <th>Agreement</th>
         <th>Disagreement</th>
         <th>Total Validations</th>
